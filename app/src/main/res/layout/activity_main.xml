@@ -32,12 +32,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Login" />
+            android:text="@string/login_text" />
         <EditText
             android:layout_marginHorizontal="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username" />
+            android:hint="@string/username_hint" />
 
         <EditText
             android:layout_marginTop="10dp"
@@ -45,7 +45,7 @@
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password" />
+            android:hint="@string/pwd_hint" />
     </LinearLayout>
 
 
