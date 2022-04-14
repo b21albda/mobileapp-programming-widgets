@@ -4,6 +4,20 @@
 Skapade en inloggningsskärm med en imageview som använder sig av constraintlayout för att positioneras.
 Själva inloggninsinputen och knappen ligger i en linearlayout då de bara ska bli stackade på varandra.
 
+
+XML för att skapa en Linearlayout som ska stacka alla komponenter i sig.
+``
+    <LinearLayout
+    android:layout_marginHorizontal="16dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@+id/image"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+``
+
 ![](screenshot.png)
 
 Läs gärna:
